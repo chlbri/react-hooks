@@ -5,7 +5,7 @@ import Document, {
   Main,
   NextScript,
 } from 'next/document';
-import { ReactElement, JSXElementConstructor, ReactFragment } from 'react';
+import {ReactElement, JSXElementConstructor, ReactFragment} from 'react';
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext): Promise<{
